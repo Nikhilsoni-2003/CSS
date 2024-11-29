@@ -1,0 +1,6 @@
+class selector -> .
+id selector -> #
+
+specificity : id > class > element 
+
+a:hover => pseudo class; hover is a state for a tag. 

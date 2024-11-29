@@ -1,0 +1,23 @@
+h1{
+    color: rgba(165, 42, 42, 0.5);
+}
+h3{
+    color: rgb(0, 255, 255 ,0.3);
+
+}
+p{
+    color: rgb(138, 43, 226, .9);
+}
+.hero-section{
+    color: rgb(39, 208, 152);
+}
+
+p{
+    color: currentColor;             
+}
+
+/* currentColor : parent ya nearest element ka color le lega  */
+/* heu => purest form of color i.e. red  */
+/* tint : adding white  */
+/* shade : adding black  */
+/* tone : tint + shade i.e. pure color with just grey(black+white) added  */
