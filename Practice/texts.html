@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: "nikhilFont";
+            src: url(./LastChristmas_PERSONAL_USE_ONLY.otf) format('OpenType');
+        }
+        *{
+            margin : 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "nikhilFont";
+        }
+        #main{
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            padding: 50px;
+        }
+        h1{
+            font-size: 54px;
+            font-weight: 700;
+            text-align: center;
+            text-decoration: underline;
+            text-decoration-style: wavy;
+            text-decoration-thickness: 4px;
+            text-decoration-color: cadetblue;
+            text-transform: capitalize;
+        }
+        #main p{
+            text-transform: capitalize;
+            letter-spacing: 3px;
+            /* word-wrap: break-word; */
+            word-spacing: 8px;
+            line-height: 1.5;
+        }
+
+        a{
+            text-decoration: none;
+            color: rgb(135, 227, 143);
+            font-size: 24px;
+        }
+        #main h2{
+            text-shadow: -1px 1.5px 1px rgb(7, 204, 158);
+        }
+        
+
+        #main p::first-letter{
+            text-transform: uppercase;
+            color: rgb(15, 207, 143);
+            font-size: 30px;
+            font-weight: 900;
+        }
+      
+    </style>
+</head>
+<body>
+    <section id="main">
+        <h1>Wellcome to text File</h1> <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus iste quasi nihil tempore omnis, aut ad pariatur repellendus vero mollitia impedit et quia ratione animi nesciunt maiores eius reprehenderit sint.</p>
+        <br>
+        <a href="google.com">Anchor tag with no underline.</a>  <br><br><br><hr>
+
+        <h2>Text Shadow in CSS</h2>  <br>
+        <p>text-shadow : Offset-y Offset-x Blur-radius color</p>
+        <hr>
+        <br>
+
+        <h2>Pseudo-element :: </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorem molestiae vitae, dicta fugiat quaerat autem possimus tempora voluptate quidem blanditiis, recusandae ratione iusto commodi, eius optio voluptatem aut. Eos.</p>
+    </section>
+</body>
+</html>
