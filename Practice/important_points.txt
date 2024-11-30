@@ -1,0 +1,21 @@
+class selector -> .
+id selector -> #
+
+specificity : id > class > element 
+
+a:hover => pseudo class; hover is a state for a tag. 
+
+units in css :
+1. Absolute lengths : pixels(px), inches(in), Points(pt)
+2. Relative lengths : em, Root em(rem), Percentage(%)
+
+Important points about units : 
+
+    relative units are based on the parents element's size.
+    but rem is based on the font size of the root (html) element.
+
+    example :when parent's size is 16px then,
+            => 100% = 16px. or 1px = 6.25%
+            => 1em = 16px
+
+Importance of rem : responsive banane me kaam aata hai... root(html) ka px size adjust kr baki sare child ka size accordingly apne aap adjust ho jayega ; no need to do it manually.
